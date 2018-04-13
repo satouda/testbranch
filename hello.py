@@ -11,7 +11,7 @@ def hello():
 
     #db setting
     db = pymysql.connect(
-            host='localhost',
+            host='127.0.0.1',
             user='root',
             password='root',
             db='testdb',
